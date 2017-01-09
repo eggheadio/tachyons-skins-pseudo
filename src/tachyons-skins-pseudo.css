@@ -84,6 +84,7 @@
  --dark-gray: #434b56;
  --gray: #646e7b;
  --light-gray: #d1d2d3;
+ --tag-gray: #f6f6f6;
  --yellow: #ffce51;
  --orange: #f59e33;
  --dark-orange: #df6941;
@@ -270,6 +271,8 @@
 .hover-gray:focus { color: var(--gray); }
 .hover-light-gray:hover,
 .hover-light-gray:focus { color: var(--light-gray); }
+.hover-tag-gray:hover,
+.hover-tag-gray:focus { color: var(--tag-gray); }
 .hover-yellow:hover,
 .hover-yellow:focus { color: var(--yellow); }
 .hover-orange:hover,
@@ -307,6 +310,8 @@
 .hover-bg-gray:focus { background-color: var(--gray); }
 .hover-bg-light-gray:hover,
 .hover-bg-light-gray:focus { background-color: var(--light-gray); }
+.hover-bg-tag-gray:hover,
+.hover-bg-tag-gray:focus { background-color: var(--tag-gray); }
 .hover-bg-yellow:hover,
 .hover-bg-yellow:focus { background-color: var(--yellow); }
 .hover-bg-orange:hover,
@@ -344,6 +349,8 @@
 .hover-b--gray:focus { border-color: var(--gray); }
 .hover-b--light-gray:hover,
 .hover-b--light-gray:focus { border-color: var(--light-gray); }
+.hover-b--tag-gray:hover,
+.hover-b--tag-gray:focus { border-color: var(--tag-gray); }
 .hover-b--yellow:hover,
 .hover-b--yellow:focus { border-color: var(--yellow); }
 .hover-b--orange:hover,
